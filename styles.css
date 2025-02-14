@@ -1,1 +1,19 @@
 /* your code */
+table{
+	width: 100%;
+	height:150px;
+	/* border: none; */
+	border-collapse: collapse;
+}
+thead{
+	background-color:cyan;
+}
+
+tbody tr:nth-child(odd){
+	background-color: white;
+	text-align:center;
+}
+tbody tr:nth-child(even){
+	background-color: lightgrey;
+	text-align:center;
+}
